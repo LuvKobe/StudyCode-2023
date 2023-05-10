@@ -296,3 +296,4 @@ void FileCompress::GenerateHuffmanCode(HuffmanTreeNode<ByteInfo>* root)
 	GenerateHuffmanCode(root->left);
 	GenerateHuffmanCode(root->right);
 }
+
